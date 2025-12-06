@@ -99,6 +99,24 @@ This will:
 
 ---
 
+## 🧠 Function Description
+
+```
+"""
+Resize all images in input folder (including nested folders) to specified dimensions in inches
+Preserves folder structure in output
+
+Args:
+    input_folder: Folder containing input images (with nested folders)
+    output_folder: Folder to save resized images (will mirror input structure)
+    width_inches: Target width in inches
+    height_inches: Target height in inches
+    dpi: DPI (dots per inch) for resolution
+"""
+```
+
+---
+
 ## 📘 Notes
 
 - Non-image files are safely ignored.  
